@@ -2,17 +2,17 @@
     "name": "cpu12",
     "displayName": "CPU12 Assembly Language",
     "description": "Syntax highlighting for CPU12 assembly instructions",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "nickymarino2",
     "author": {
-		"name": "Nicky Marion",
-		"email": "nicky.s.marino@gmail.com"
-	},
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/heztet/cpu12"
-	},
+        "name": "Nicky Marion",
+        "email": "nicky.s.marino@gmail.com"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/heztet/cpu12-vscode"
+    },
     "engines": {
         "vscode": "^1.15.0"
     },
@@ -20,16 +20,26 @@
         "Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "cpu12",
-            "aliases": ["CPU12", "cpu12"],
-            "extensions": [".asm",".inc"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "cpu12",
-            "scopeName": "source.cpu12",
-            "path": "./syntaxes/cpu12.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "cpu12",
+                "aliases": [
+                    "CPU12",
+                    "cpu12"
+                ],
+                "extensions": [
+                    ".asm",
+                    ".inc"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "cpu12",
+                "scopeName": "source.cpu12",
+                "path": "./syntaxes/cpu12.tmLanguage.json"
+            }
+        ]
     }
 }

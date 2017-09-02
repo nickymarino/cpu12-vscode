@@ -7,4 +7,12 @@ Initial release
 ### 1.0.1
 
 - Updated author information in `package.json`
+
+### 1.0.2
+
 - Fix problem with captures set to "0" instead of "1"
+
+### 1.0.3
+
+- Update GitHub repo location
+- No longer download Thumbs.db
