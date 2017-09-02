@@ -7,7 +7,7 @@
 				"comment": "Line Comments -- Asterisk only works at beginning of line",
 				"match": "((;|^\\*).*$)",
 				"captures": {
-					"0" :{
+					"1" :{
 						"name": "comment.line.cpu12"
 					}
 				}
@@ -37,7 +37,7 @@
 				"comment": "Directives",
 				"match": "(?i-)\\s+(ORG|EQU|REDEF|DS|DW|DB|FCC|END|#ifdef|#ifndef|#ifeq|#else|#endif)\\b(?-i)",
 				"captures": {
-					"0" :{
+					"1" :{
 						"name": "keyword.control.cpu12"
 					}
 				}
@@ -46,7 +46,7 @@
 				"comment": "Load & Store Instructions",
 				"match": "(?i-)\\s+(L(D(A[AB]|[DSXY])|EA[SXY])|ST(A[AB]|[DSXY]))\\b(?-i)",
 				"captures": {
-					"0" :{
+					"1" :{
 						"name": "keyword.control.cpu12"
 					}
 				}
