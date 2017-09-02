@@ -1,9 +1,18 @@
 {
     "name": "cpu12",
-    "displayName": "CPU12 Assembly Language Extension",
+    "displayName": "CPU12 Assembly Language",
     "description": "Syntax highlighting for CPU12 assembly instructions",
     "version": "1.0.0",
-    "publisher": "https://github.com/heztet",
+    "publisher": "nickymarino2",
+    "author": {
+		"name": "Nicky Marion",
+		"email": "nicky.s.marino@gmail.com"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/heztet/cpu12"
+	},
     "engines": {
         "vscode": "^1.15.0"
     },
