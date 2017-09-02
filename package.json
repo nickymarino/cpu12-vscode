@@ -2,7 +2,7 @@
     "name": "cpu12",
     "displayName": "CPU12 Assembly Language",
     "description": "Syntax highlighting for CPU12 assembly instructions",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "nickymarino2",
     "author": {
 		"name": "Nicky Marion",
