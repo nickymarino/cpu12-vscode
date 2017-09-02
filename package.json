@@ -1,0 +1,26 @@
+{
+    "name": "cpu12",
+    "displayName": "cpu12",
+    "description": "cpu12",
+    "version": "0.0.1",
+    "publisher": "https://github.com/heztet",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "cpu12",
+            "aliases": ["CPU12", "cpu12"],
+            "extensions": [".asm",".inc"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "cpu12",
+            "scopeName": "source.cpu12",
+            "path": "./syntaxes/cpu12.tmLanguage.json"
+        }]
+    }
+}
