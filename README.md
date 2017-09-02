@@ -4,7 +4,7 @@ CPU12 assembly language support for Visual Studio Code
 
 ## Features
 
-![Syntax example](https://raw.githubusercontent.com/heztet/cpu12/master/example.png)
+![Syntax example](https://raw.githubusercontent.com/heztet/cpu12-vscode/master/example.png)
 
 This package includes the grammar for the Motorola CPU12 core instruction set, defined in the [CPU12/CPU12RM manual](http://www.nxp.com/docs/en/reference-manual/CPU12RM.pdf).
 

@@ -2,7 +2,7 @@
 
 ## 1.0.0
 
-Initial release
+- Initial release
 
 ### 1.0.1
 
@@ -16,3 +16,7 @@ Initial release
 
 - Update GitHub repo location
 - No longer download Thumbs.db
+
+### 1.0.4
+
+- Fix README GitHub links
