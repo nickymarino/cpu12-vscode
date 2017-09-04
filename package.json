@@ -2,7 +2,7 @@
     "name": "cpu12",
     "displayName": "CPU12 Assembly Language",
     "description": "Syntax highlighting for CPU12 assembly instructions",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "publisher": "nickymarino2",
     "author": {
         "name": "Nicky Marion",
@@ -13,12 +13,23 @@
         "type": "git",
         "url": "https://github.com/heztet/cpu12-vscode"
     },
+    "bugs": {
+        "url": "https://github.com/heztet/cpu12-vscode/issues",
+        "email": "nicky.s.marino@gmail.com"
+    },
     "engines": {
         "vscode": "^1.15.0"
     },
     "categories": [
         "Languages"
     ],
+    "keywords": [
+        "CPU12", "cpu12", "Assembly", "syntax-highlighter", "languages" 
+    ],
+    "galleryBanner": {
+        "color": "#C80000",
+        "theme": "dark"
+    },
     "contributes": {
         "languages": [
             {
