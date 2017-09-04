@@ -1,4 +1,4 @@
-# cpu12
+# cpu12-vscode
 
 CPU12 assembly language support for Visual Studio Code
 
